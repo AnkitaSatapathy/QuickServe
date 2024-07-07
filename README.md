@@ -1,5 +1,6 @@
 # QuickServe
 QuickServe is a web application that provides integrated services to common people. This website has comprehensive service coverage for health, education and finance.
+
 1.Education:-
 Our website serves as a one-stop resource for students, offering detailed information on educational institutions, a comprehensive scholarship database, and a curated collection of online learning tools.
 
