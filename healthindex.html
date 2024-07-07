@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Services</title>
+    <link rel="stylesheet" href="healthstyles.css">
+    <script src="healthscript.js" defer></script>
+</head>
+<body>
+   
+    <div class="big-wrapper light">
+      <img src="./img/shape.png" alt="" class="shape" />
+
+      <header>
+        <div class="container">
+          <div class="logo">
+            
+            <h3>QuickServe</h3>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li><a href="#hospitals">Hospitals</a></li>
+                <li><a href="#doctorsList">Doctors</a></li>
+                <li><a href="#labsList">Lab Services</a></li>
+                <li><a href="#pharmacy">Pharmacy</a></li>
+                <li><a href="#diagnostics">Diagnostics</a></li>
+                <li><a href="#emergency">Emergency Services</a></li>
+            </ul>
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </header>
+
+      <div class="showcase-area">
+        <div class="container">
+          <div class="left">
+            <div class="big-title">
+              <h1>Importance of</h1>
+              <h1>Health Services</h1>
+            </div>
+            <p class="text">
+              Access to quality healthcare services for
+              seeking emergency care,regular 
+              check-ups, or specialized treatments. 
+            </p>
+            <div class="cta">
+              <a href="#" class="btn">Get started</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <img src="./doctor.jpg" alt="Doctor Image"class="circular-image">
+            <img src="./hospital.jpg" alt="Hospital Image"class="circular-image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <section id="hospitals">
+        <h2>Hospitals</h2>
+        <p>Search for the nearest best hospital services:</p>
+        <section id="search">
+
+            <form id="searchForm">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter your location (e.g., Bhubaneswar)">
+                <br/>
+                <label for="specialty">Doctor Specialty:</label>
+                <input type="text" id="specialty" name="specialty" placeholder="Enter doctor specialty (e.g., Cardiologist)">
+                <br/>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="results">
+            <p>Search Results</p>
+            <div id="resultsContainer">
+            </div>
+            <button id="clearResults" style="display: none;">Clear Results</button>
+        </section>
+
+
+    </section>
+
+    <section id="doctorsList">
+        <h2>Doctors</h2>
+        <p>Some of the very highly rated good Doctors in Bhubaneswar from various departments as Cardiology,Gynaecology,Neurology and Oncology.</h1>
+        <br/>
+        <h3>1. Cardiologist</h3>
+    <div class="wrapper"> 
+        <i id="left" class="fa-solid  fas fa-angle-left"></i> 
+        <ul class="carousel"> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./c2.jpeg"  alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;"> 
+                    Dr. Dibya Ranjan Behera 
+                  </h2> 
+                <span>Khandagiri Amri Hospital</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./c1.jpeg"  alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr. J K Padhi</h2> 
+                <span>AMRI Hospital Khandagiri</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./c3.jpeg"alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr. Manabhanjan Jena</h2> 
+                <span>Chandrasekharpur Maitri Vihar</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./c4.jpeg" alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr. PK MAJHI</h2> 
+                <span>Board Colony Khandagiri</span> 
+            </li> 
+        </ul> 
+        <i id="right" class="fa-solid fas fa-angle-right"></i> 
+    </div> 
+    
+    <h3>2. Gynaecologist</h3>
+    <div class="wrapper"> 
+        <i id="left" class="fa-solid  fas fa-angle-left"></i> 
+        <ul class="carousel"> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./g1.jpeg"  alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;"> 
+                    Dr. Sini Venugopal 
+                  </h2> 
+                <span>Kharvel Nagar</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./g2.jpeg"  alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr. Shibani Devi</h2> 
+                <span>Jayadev Vatika,Khandagiri</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./g3.jpeg"  alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr. Anubhuti Patel</h2> 
+                <span>Sector-2,Chandrasekharpur</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./g4.jpeg" alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr. Bharat Bhusan</h2> 
+                <span>Bharat Clinic,Pokhariput</span> 
+            </li> 
+        </ul> 
+        <i id="right" class="fa-solid fas fa-angle-right"></i> 
+    </div> 
+
+    <h3>3. Neurologist</h3>
+    <div class="wrapper"> 
+        <i id="left" class="fa-solid  fas fa-angle-left"></i> 
+        <ul class="carousel"> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./n1.jpeg"  alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;"> 
+                    Dr.Prafulla Ku.Sahoo
+                  </h2> 
+                <span>Apollo Hospital,Acharya Vihar</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./n2.jpeg"  alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr. Mohit Shidhore</h2> 
+                <span>SUM Hospital,Kalinga Nagar</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./n3.jpeg" alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr.Soubhagya Tripathy</h2> 
+                <span>Sainik School Road</span> 
+            </li> 
+        </ul> 
+        <i id="right" class="fa-solid fas fa-angle-right"></i> 
+    </div> 
+
+    <h3>4. Oncologist</h3>
+    <div class="wrapper"> 
+        <i id="left" class="fa-solid  fas fa-angle-left"></i> 
+        <ul class="carousel"> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./o1.jpeg" alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;"> 
+                    Dr.Nitish Acharya 
+                  </h2> 
+                <span>IRC Village,Nayapali</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./o2.jpeg" alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr. Sudam Sadangi</h2> 
+                <span> SUM Hospital</span> 
+            </li> 
+            <li class="card"> 
+                <div class="img"><img src= 
+"./o3.jpeg" alt="" draggable="false"> </div> 
+                <h2 style="color: green; font-weight:bold;">Dr. Srigopal Mohanty</h2> 
+                <span> SUM Hospital</span> 
+            </li>  
+        </ul> 
+        <i id="right" class="fa-solid fas fa-angle-right"></i> 
+    </div>                 
+    </section>
+    
+    <section id="labsList">
+        <h2>Lab Services</h2>
+            <p>Pathological Labs List in Bhubaneswar</p>
+        
+  <div class="maincontainer">
+    <div class="back">
+      <h2>Dr. Lal PathLabs</h2>
+      <p>       M/S KRISHNA PATHOLAB <br/> Nandan Vihar, Bhubaneswar</p>
+    </div>
+    <div class="front">
+      <div class="image">
+        <img src="./l1.jpeg"height=300px width="300px">
+      </div>
+    </div>
+  </div>
+  <div class="maincontainer">
+    <div class="back">
+      <h2>Redcliffe Labs</h2>
+      <p>Collection Center
+        Nandan Vihar, Patia, Bhubaneswar</p>
+    </div>
+    <div class="front">
+      <div class="image">
+        <img src="./l2.jpeg"height=300px width="300px">
+      </div>
+    </div>
+  </div>
+  <div class="maincontainer">
+    <div class="back">
+      <h2>Pathkind Labs</h2>
+      <p>Chandrasekharpur, Bhubaneswar</p>
+    </div>
+    <div class="front">
+      <div class="image">
+        <img src="./l3.jpeg"height=300px width="300px">
+      </div>
+    </div>
+  </div>
+  <div class="maincontainer">
+    <div class="back">
+      <h2>Ansh Clinic and Patholab</h2>
+      <p>Nandan Vihar - Kalarahangh Rd, Nandan Vihar, Patia, Bhubaneswar</p>
+    </div>
+    <div class="front">
+      <div class="image">
+        <img src="./l4.jpeg"height=300px width="300px">
+      </div>
+    </div>
+  </div>
+  <div class="maincontainer">
+    <div class="back">
+      <h2>SRI KRISHNA PATHLABS</h2>
+      <p>Acharya Vihar, Bhubaneswar</p>
+    </div>
+    <div class="front">
+      <div class="image">
+        <img src="./l5.jpeg"height=300px width="300px">
+      </div>
+    </div>
+  </div>
+  <div class="maincontainer">
+    <div class="back">
+      <h2>Pathology Lab</h2>
+      <p>Metropolis Healthcare Ltd - Pathology Lab, Diagnostic Centre In Samanta Vihar, Khorda</p>
+    </div>
+    <div class="front">
+      <div class="image">
+        <img src="./l6.jpeg"height=300px width="300px">
+      </div>
+    </div>
+   </div>
+ </section>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+    <section id="pharmacy">
+        <h2>Pharmacy</h2>
+        <p>Pharmacy in Bhubaneswar</p>
+        <body>
+            <div class="container">
+              <div class="card">
+                <div class="face face1">
+                  <div class="content">
+                    <img src="./pc1.jpeg">
+                    <h3>Rose Drug House</h3>
+                  </div>
+                </div>
+                <div class="face face2">
+                  <div class="content">
+                    <p>IRC Village, Bhubaneshwar</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="face face1">
+                  <div class="content">
+                    <img src="./pc2.jpeg">
+                    <h3>Yogamaya Drug House</h3>
+                  </div>
+                </div>
+                <div class="face face2">
+                  <div class="content">
+                    <p>Satyanagar, Bhubaneshwar</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="face face1">
+                  <div class="content">
+                    <img src="./pc3.jpeg">
+                    <h3>Nigam Drug House</h3>
+                  </div>
+                </div>
+                <div class="face face2">
+                  <div class="content">
+                    <p>Damana Chaak, Bhubaneshwar</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="face face1">
+                  <div class="content">
+                    <img src="./pc4.jpeg">
+                    <h3>Maa Santoshi Polyclinic and Medicine Store</h3>
+                  </div>
+                </div>
+                <div class="face face2">
+                  <div class="content">
+                    <p>Bomikhal, Bhubaneshwar</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </body>
+    </section>
+
+    <section id="diagnostics">
+        <h2>Diagnostics</h2>
+        <p>Diagnostic centers in Bhubaneswar:</p>
+
+        <div class="wrapper1">
+            <div class="card1"><img src="./p2.jpeg"/>
+              <div class="info">
+                <h1>Truscan Diagnostic Centre</h1>
+                <p>Patrapada, Bhubaneshwar</p>
+              </div>
+            </div>
+            <div class="card1"><img src="./p1.jpeg"/>
+              <div class="info">
+                <h1>CUREWELL LABORATORY & DIAGNOSTICS PVT. LTD.</h1>
+                <p>Sainik School Road, Bhubaneshwar</p>
+              </div>
+            </div>
+            <div class="card1"><img src="./p3.jpeg"/>
+              <div class="info">
+                <h1>Ananya Hospital</h1>
+                <p>Canal Colony Bhubaneswar</p>
+              </div>
+            </div>
+            <div class="card1"><img src="./p4.jpeg"/>
+                <div class="info">
+                  <h1>Divine Super Speciality Clinic</h1>
+                  <p>Khandagiri, Bhubaneshwar</p>
+                </div>
+              </div>
+            </div>
+
+    </section>
+
+    <section id="emergency">
+        <h2>Emergency Services</h2>
+        <p>Emergency services in Hospitals in Bhubaneswar</p>
+
+        <div class="container2">
+          <div class="card2">
+            <div class="Box">
+              <img src="./e1.jpeg">
+            </div>
+            <div class="details">
+              <h2>KIMS Emergency Department</h2>
+              <p>KIMS has specialized Cancer Treatment Department. </p>
+              <br/>
+              <p>Chandaka Industrial Estate, KIIT University, Patia </p>
+            </div>
+          </div>
+          <div class="card2">
+            <div class="Box">
+              <img src="./e2.jpeg">
+            </div>
+            <div class="details">
+              <h2>BMC Hospital</h2>
+              <p>It is a Blood Bank </p>
+              <br/>
+              <p>Lingaraj Nagar, Bhubaneshwar </p>
+            </div>
+          </div>
+          <div class="card2">
+            <div class="Box">
+              <img src="./e3.jpeg">
+            </div>
+            <div class="details">
+              <h2>Erica Healthcare</h2>
+              <p>Kalinga Vihar, Bhubaneshwar </p>
+            </div>
+          </div>
+          <div class="card2">
+            <div class="Box">
+              <img src="./e4.jpeg">
+            </div>
+            <div class="details">
+              <h2>Red Cross</h2>
+              <p>It is a Regional Blood Centre </p>
+              <br/>
+              <p>Unit 9, Bhubaneshwar </p>
+            </div>
+          </div>
+          <div class="card2">
+            <div class="Box">
+              <img src="./e5.jpeg">
+            </div>
+            <div class="details">
+              <h2>ANNAPURNA AMBULANCE SERVICE</h2>
+              <p>PLOT NO-234 UNIT-6, Bhubaneswar </p>
+            </div>
+          </div>
+        </div> 
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Quick Serve</h3>
+          <p>123-456-7892</p>
+          <p>quickserve@gmail.com</p>
+          <p>www.quickserve.com</p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="far fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 QuickServe. All rights reserved.
+      </div>
+    </footer>
+</body>
+</html>
